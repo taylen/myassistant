@@ -1,5 +1,9 @@
 {
   "pages": [
+    "pages/myself/main",
+    "pages/family/main",
+    "pages/country/main",
+    "pages/world/main",
     "pages/index/main",
     "pages/logs/main",
     "pages/counter/main"
@@ -7,7 +11,33 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "我",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "tabBar": {
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/myself/main",
+        "text": "修身"
+      },
+      {
+        "pagePath": "pages/family/main",
+        "text": "齐家"
+      },
+      {
+        "pagePath": "pages/country/main",
+        "text": "治国"
+      },
+      {
+        "pagePath": "pages/world/main",
+        "text": "平天下"
+      }
+    ]
+  },
+  "network": {
+    "request": 10000,
+    "downloadFile": 60000
+  },
+  "debug": true
 }
