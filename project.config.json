@@ -5,12 +5,14 @@
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"nodeModules": true
 	},
 	"miniprogramRoot": "./dist/",
 	"compileType": "miniprogram",
 	"appid": "wxbfa18ff7ff1a834b",
 	"projectname": "myassistant",
+	"libVersion": "2.2.5",
 	"condition": {
 		"search": {
 			"current": -1,

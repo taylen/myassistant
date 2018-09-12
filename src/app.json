@@ -39,5 +39,6 @@
     "request": 10000,
     "downloadFile": 60000
   },
+  "cloud": true,
   "debug": true
 }
