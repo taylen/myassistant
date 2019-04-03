@@ -15,23 +15,31 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "position": "top",
+    "position": "bottom",
     "list": [
       {
         "pagePath": "pages/myself/main",
-        "text": "修身"
+        "text": "修身",
+        "iconPath": "static/image/nav/me1.png",
+        "selectedIconPath": "static/image/nav/me.png"
       },
       {
         "pagePath": "pages/family/main",
-        "text": "齐家"
+        "text": "齐家",
+        "iconPath": "static/image/nav/hq1.png",
+        "selectedIconPath": "static/image/nav/hq.png"
       },
       {
         "pagePath": "pages/country/main",
-        "text": "治国"
+        "text": "治国",
+        "iconPath": "static/image/nav/w_zx1.png",
+        "selectedIconPath": "static/image/nav/w_zx.png"
       },
       {
         "pagePath": "pages/world/main",
-        "text": "平天下"
+        "text": "平天下",
+        "iconPath": "static/image/nav/info1.png",
+        "selectedIconPath": "static/image/nav/info.png"
       }
     ]
   },
