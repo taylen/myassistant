@@ -16,6 +16,7 @@
   },
   "tabBar": {
     "position": "bottom",
+    "selectedColor": "#3283DB",
     "list": [
       {
         "pagePath": "pages/myself/main",

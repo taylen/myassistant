@@ -24,6 +24,7 @@ export default {
   justify-content: space-between;
   padding: 50rpx 10rpx;
   box-sizing: border-box;
+  font-size: 35rpx;
 }
 /* this rule will be remove */
 * {
