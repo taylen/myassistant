@@ -27,6 +27,15 @@ export default {
   methods: {
     openMySelf () {
       this.showIndex = false
+      wx.cloud.callFunction({
+        name: 'addTodoItem',
+        data: {
+          title: '这是要做的事情',
+          deadline: '这是截止日期'
+        }
+      }).then(res => {
+        console.log(res)
+      }).catch(console.error)
     }
   }
 }

@@ -118,6 +118,20 @@ module.exports = {
         to: path.resolve(__dirname, '../dist/static'),
         ignore: ['.*']
       }
+    ]),
+    new CopyWebpackPlugin([ // 实现云函数目录的复制
+      {
+        from: path.resolve(__dirname, '../cloud-functions'),
+        to: path.resolve(__dirname, '../dist/cloud-functions'),
+        ignore: ['.*']
+      }
+    ]),
+    new CopyWebpackPlugin([ // 实现project.config.json的复制
+      {
+        from: path.resolve(__dirname, '../project.config.json'),
+        to: path.resolve(__dirname, '../dist/'),
+        ignore: ['.*']
+      }
     ])
   ]
 }

@@ -1,6 +1,8 @@
 <script>
 export default {
   created () {
+    wx.cloud.init()
+
     // 调用API从本地缓存中获取数据
     const logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -24,6 +26,7 @@ export default {
   justify-content: space-between;
   padding: 50rpx 10rpx;
   box-sizing: border-box;
+  font-size: 35rpx;
 }
 /* this rule will be remove */
 * {

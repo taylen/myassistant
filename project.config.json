@@ -8,11 +8,15 @@
 		"newFeature": true,
 		"nodeModules": true
 	},
-	"miniprogramRoot": "./dist/",
+	"cloudfunctionRoot": "cloud-functions/",
+	"miniprogramRoot": "dist/",
 	"compileType": "miniprogram",
 	"appid": "wxbfa18ff7ff1a834b",
 	"projectname": "myassistant",
 	"libVersion": "2.2.5",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
 	"condition": {
 		"search": {
 			"current": -1,
