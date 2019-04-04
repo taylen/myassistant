@@ -121,7 +121,7 @@ module.exports = {
     ]),
     new CopyWebpackPlugin([ // 实现云函数目录的复制
       {
-        from: path.resolve(__dirname, '../server/cloud-functions'),
+        from: path.resolve(__dirname, '../cloud-functions'),
         to: path.resolve(__dirname, '../dist/cloud-functions'),
         ignore: ['.*']
       }
