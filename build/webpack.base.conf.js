@@ -126,12 +126,12 @@ module.exports = {
         ignore: ['.*']
       }
     ]),
-    new CopyWebpackPlugin([ // 实现project.config.json的复制
-      {
-        from: path.resolve(__dirname, '../project.config.json'),
-        to: path.resolve(__dirname, '../dist/'),
-        ignore: ['.*']
-      }
-    ])
+    // new CopyWebpackPlugin([ // 实现project.config.json的复制
+    //   {
+    //     from: path.resolve(__dirname, '../project.config.json'),
+    //     to: path.resolve(__dirname, '../dist/'),
+    //     ignore: ['.*']
+    //   }
+    // ])
   ]
 }

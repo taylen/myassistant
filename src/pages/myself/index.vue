@@ -34,7 +34,10 @@ export default {
           deadline: '这是截止日期'
         }
       }).then(res => {
-        console.log(res)
+        wx.showModal({
+          title: 'ServerLess Response',
+          content: JSON.stringify(res)
+        })
       }).catch(console.error)
     }
   }
